@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
 body{
     font-size: 18px;
 
@@ -219,3 +218,15 @@ flex-direction: column;
     color: hsl(171, 66%, 44%);
 }
 
+footer{
+   background-color:  hsl(210, 17%, 93%);
+    padding-bottom: 20px;
+    text-align: center;
+}
+.attribution {
+    color: hsl(244, 66%, 44%);
+    font-size: 15px;
+}
+.attribution a {
+    color: rgb(255, 0, 106);
+}
