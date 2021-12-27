@@ -213,8 +213,12 @@ flex-direction: column;
     margin-left: -150px;
     
 }
-.f1:hover,.f2:hover{
-
+.f2 img {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+.f1 div:nth-child(1):hover,.f1 div:nth-child(2):hover,.f1 div:nth-child(3):hover,.f1 div:nth-child(4):hover,.f1 div:nth-child(5):hover{
     color: hsl(171, 66%, 44%);
 }
 
@@ -230,3 +234,7 @@ footer{
 .attribution a {
     color: rgb(255, 0, 106);
 }
+.btn1 a {
+    list-style: none;
+}
+
